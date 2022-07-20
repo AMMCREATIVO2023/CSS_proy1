@@ -1,0 +1,430 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Mudhead";
+  src: local("Mudhead"), url(../webfonts/MudheadFREE.otf) format("opentype");
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(182, 182, 182);
+}
+
+header {
+  width: 100%;
+}
+
+#navegar {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  min-height: 100px;
+}
+
+#navegar img {
+  margin: 10px;
+}
+
+#navegar nav {
+  float: right;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+
+#navegar nav a {
+  font-size: 1.1em;
+  margin-left: 40px;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(75, 75, 75);
+}
+
+#navegar nav a:hover {
+  border-bottom: 5px solid #8dc63f;
+}
+
+#cabecera {
+  min-width: 100%;
+  background-image: url(../images/img1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  text-align: center;
+  line-height: 700px;
+}
+
+h1 {
+  font-family: "Mudhead";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 7em;
+  color: black;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(75, 75, 75);
+  text-align: center;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: white;
+}
+
+h4 {
+  font-size: 1.1em;
+  color: rgb(75, 75, 75);
+}
+
+.contenedor {
+  display: flex;
+}
+
+#secindex {
+  padding: 30px;
+  background-color: #eee;
+}
+
+.artindex {
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #d18546;
+  border-radius: 20px;
+  color: black;
+  margin: 40px;
+  box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.artindex h3 {
+  color: black;
+}
+
+aside {
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(141, 198, 63, 0.4);
+  padding-top: 40px;
+  line-height: 50px;
+  min-width: 350px;
+}
+aside li {
+  list-style: none;
+}
+
+aside a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  font-weight: 400;
+  padding: 10px;
+}
+
+aside a:hover {
+  background-color: rgb(150, 149, 149);
+  color: rgb(204, 204, 204);
+  border-radius: 5px 5px;
+  -webkit-box-shadow: inset 9px -7px 35px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 9px -7px 35px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 9px -7px 35px 1px rgba(0, 0, 0, 0.75);
+}
+
+#secserv {
+  width: 80%;
+  background-color: rgb(160, 160, 160);
+  margin: 0 auto;
+  min-height: 55vh;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.contImg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoartic {
+  background-color: #444444;
+  margin-top: 30px;
+  border-radius: 10px;
+  transition: 0.3s linear;
+}
+
+.logoartic:hover {
+  transform: scale(1.06);
+}
+
+.contenedor-cont {
+  background-color: #eee;
+}
+
+.sec-contacto {
+  max-width: 40%;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sec-contacto a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: rgb(77, 77, 77);
+}
+
+.sec-contacto a:hover {
+  font-weight: bold;
+}
+
+.form-label {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.form-input {
+  font-size: 1.2em;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-input:focus {
+  color: #8dc63f;
+  background-color: #e0f0ca;
+  border: solid #8dc63f;
+}
+
+#botone {
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 10px 20px 0;
+  border: 1px solid rgb(156, 156, 156);
+  background: rgb(179, 179, 179);
+  border-radius: 8px 8px 8px 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+#botone:hover {
+  background: #8dc63f;
+  color: #4d701c;
+}
+
+#tablaserv {
+  font-size: 1.2em;
+  caption-side: bottom;
+  border-collapse: collapse;
+  margin: 0 Auto;
+  width: 100%;
+  text-align: center;
+  table-layout: auto;
+}
+
+#tablaserv td {
+  height: 60px;
+}
+
+#tablaserv th {
+  height: 60px;
+}
+
+table tr:first-child {
+  background-color: #873e02;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #fdb478;
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: #f8c8a1;
+  color: black;
+}
+
+caption {
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+footer {
+  background-color: #292929;
+  min-height: 270px;
+  display: flex;
+}
+
+footer h1 {
+  font-size: 1.1em;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+}
+footer a:hover {
+  color: #8dc63f;
+  text-decoration: underline;
+}
+footer a:visited {
+  color: #8dc63f;
+}
+
+#footizq {
+  width: 20%;
+}
+
+#infofoot {
+  text-align: center;
+  padding-top: 80px;
+  width: 60%;
+  margin: 0 auto;
+}
+#infofoot-var {
+  text-align: center;
+  padding-top: 80px;
+  width: 100%;
+}
+
+#mapa {
+  width: 20%;
+  text-align: right;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+#wp-logo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fab {
+  font-size: 2.5em;
+}
+
+img:not([alt]) {
+  border: 3px solid red;
+}
+
+#linkPDF {
+  text-align: center;
+}
+
+#linkPDF a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  padding: 8px;
+  color: black;
+}
+
+#linkPDF a:hover {
+  font-weight: bold;
+}
+
+a[href$=".pdf"]::after {
+  content: url("../images/pdfDoc.png");
+}
+
+@media screen and (max-width: 1300px) {
+  #tablaserv {
+    font-size: 1em;
+  }
+
+  .sec-contacto {
+    max-width: 60%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mapa {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  #navegar nav a {
+    font-size: 0.9em;
+    margin-left: 30px;
+    font-weight: 600;
+  }
+
+  #navegar nav {
+    margin-right: 50px;
+  }
+
+  .contenedor {
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .contImg img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #navegar nav a {
+    font-size: 0.8em;
+    margin-left: 20px;
+    font-weight: 600;
+  }
+
+  #navegar nav {
+    margin-right: 30px;
+  }
+
+  #tablaserv {
+    font-size: 0.8em;
+  }
+
+  .sec-contacto {
+    max-width: 98%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .form-label {
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .form-input {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  .contImg {
+    flex-wrap: wrap;
+  }
+}
